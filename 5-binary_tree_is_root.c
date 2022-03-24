@@ -6,11 +6,11 @@
  */
 int binary_tree_is_root(const binary_tree_t *node)
 {
-        int root = 0;
+	int root = 0;
 
-        if (node && node->parent == NULL)
-                root = 1;
+	if (node && node->parent == NULL)
+		root = 1;
 
-        return (root);
+	return (root);
 }
 
