@@ -7,16 +7,16 @@
  */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
-        int leaf = 0;
+	int leaf = 0;
 
-        if (node->left == NULL && node->right == NULL)
-                leaf = 1;
+	if (node->left == NULL && node->right == NULL)
+		leaf = 1;
 
-        return (leaf);
+	return (leaf);
 }
 
 /**
- * binary_tree_is_full - is a pointer to the root node
+ * binary_tree_is_perfect - is a pointer to the root node
  * @tree:  is a pointer to the root node of the tree to check
  * Return: pointer to the new node
  */
